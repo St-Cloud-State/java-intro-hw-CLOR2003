@@ -3,6 +3,8 @@ import java.io.FileNotFoundException;
 import java.util.*;
 import java.awt.*;
 import javax.swing.*;
+import Hw1Q1.Person;
+
 public class Merge {
     public static void main(String[] args) throws FileNotFoundException {
 	int item1 = 0, item2 = 0;
@@ -19,7 +21,6 @@ public class Merge {
         buttonPanel.add(new JButton("mybutton"));
 	myframe.setVisible(true); // goes with line above
 	myframe.repaint();*/
-	fef
 	LinkedList l1 = new LinkedList(); // just a dummy
 	l1.add(new Integer(5)); //test
 	Integer i1 = (Integer)l1.getFirst();
